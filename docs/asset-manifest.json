@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/ka2coder-react/static/css/main.45e81d9d.css",
-    "main.js": "/ka2coder-react/static/js/main.b15434f7.js",
-    "static/js/453.97196260.chunk.js": "/ka2coder-react/static/js/453.97196260.chunk.js",
-    "static/media/OldPortforio.jpg": "/ka2coder-react/static/media/OldPortforio.e5e0e0866f44f8a4790b.jpg",
-    "static/media/face.jpg": "/ka2coder-react/static/media/face.73fbbe0c4b5afc212d5b.jpg",
-    "static/media/webapp.jpg": "/ka2coder-react/static/media/webapp.c16ffb4970b091535069.jpg",
-    "static/media/hpimages.jpg": "/ka2coder-react/static/media/hpimages.4a3c091492d236c29200.jpg",
-    "static/media/graphimage.jpg": "/ka2coder-react/static/media/graphimage.84fa71880ec9a4d23610.jpg",
-    "static/media/icon.jpg": "/ka2coder-react/static/media/icon.28ac822ac2a40edec43c.jpg",
-    "static/media/calcimage.jpg": "/ka2coder-react/static/media/calcimage.ff20c0f87ab7268d6807.jpg",
-    "static/media/formimages.jpg": "/ka2coder-react/static/media/formimages.7beb05751addbc0c01d9.jpg",
-    "static/media/tokusima_web.jpg": "/ka2coder-react/static/media/tokusima_web.9b1f6c90f20ef4845c20.jpg",
-    "index.html": "/ka2coder-react/index.html",
-    "main.45e81d9d.css.map": "/ka2coder-react/static/css/main.45e81d9d.css.map",
-    "main.b15434f7.js.map": "/ka2coder-react/static/js/main.b15434f7.js.map",
-    "453.97196260.chunk.js.map": "/ka2coder-react/static/js/453.97196260.chunk.js.map"
+    "main.css": "/static/css/main.45e81d9d.css",
+    "main.js": "/static/js/main.943eec42.js",
+    "static/js/453.97196260.chunk.js": "/static/js/453.97196260.chunk.js",
+    "static/media/OldPortforio.jpg": "/static/media/OldPortforio.e5e0e0866f44f8a4790b.jpg",
+    "static/media/face.jpg": "/static/media/face.73fbbe0c4b5afc212d5b.jpg",
+    "static/media/webapp.jpg": "/static/media/webapp.c16ffb4970b091535069.jpg",
+    "static/media/hpimages.jpg": "/static/media/hpimages.4a3c091492d236c29200.jpg",
+    "static/media/graphimage.jpg": "/static/media/graphimage.84fa71880ec9a4d23610.jpg",
+    "static/media/icon.jpg": "/static/media/icon.28ac822ac2a40edec43c.jpg",
+    "static/media/calcimage.jpg": "/static/media/calcimage.ff20c0f87ab7268d6807.jpg",
+    "static/media/formimages.jpg": "/static/media/formimages.7beb05751addbc0c01d9.jpg",
+    "static/media/tokusima_web.jpg": "/static/media/tokusima_web.9b1f6c90f20ef4845c20.jpg",
+    "index.html": "/index.html",
+    "main.45e81d9d.css.map": "/static/css/main.45e81d9d.css.map",
+    "main.943eec42.js.map": "/static/js/main.943eec42.js.map",
+    "453.97196260.chunk.js.map": "/static/js/453.97196260.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45e81d9d.css",
-    "static/js/main.b15434f7.js"
+    "static/js/main.943eec42.js"
   ]
 }
