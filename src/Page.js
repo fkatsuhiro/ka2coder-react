@@ -44,11 +44,11 @@ class Page extends Component {
               <div className="nav nav-tabs">
                 <button className="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">menu</button>
                 <ul className="dropdown-menu dropdown-menu-end">
-                  <li><Link className="dropdown-item" to="/">Home</Link></li>
-                  <li><Link className="dropdown-item" to="/Career">Career</Link></li>
-                  <li><Link className="dropdown-item" to="/Works">Works</Link></li>
-                  <li><Link className="dropdown-item" to="/Study">Study</Link></li>
-                  <li><Link className="dropdown-item" to="/Contact">Contact</Link></li>
+                  <li><Link className="dropdown-item" to="/ka2coder-react/">Home</Link></li>
+                  <li><Link className="dropdown-item" to="/ka2coder-react/Career">Career</Link></li>
+                  <li><Link className="dropdown-item" to="/ka2coder-react/Works">Works</Link></li>
+                  <li><Link className="dropdown-item" to="/ka2coder-react/Study">Study</Link></li>
+                  <li><Link className="dropdown-item" to="/ka2coder-react/Contact">Contact</Link></li>
                 </ul>
               </div>
               ) : (
