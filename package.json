@@ -2,7 +2,7 @@
   "name": "ka2coder-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fkatsuhiro.github.io/",
+  "homepage": "https://fkatsuhiro.github.io/ka2coder-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
