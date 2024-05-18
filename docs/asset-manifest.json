@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ka2coder-react/static/css/main.45e81d9d.css",
-    "main.js": "/ka2coder-react/static/js/main.5d2bc306.js",
+    "main.js": "/ka2coder-react/static/js/main.6a88cf59.js",
     "static/js/453.97196260.chunk.js": "/ka2coder-react/static/js/453.97196260.chunk.js",
     "static/media/OldPortforio.jpg": "/ka2coder-react/static/media/OldPortforio.e5e0e0866f44f8a4790b.jpg",
     "static/media/face.jpg": "/ka2coder-react/static/media/face.73fbbe0c4b5afc212d5b.jpg",
@@ -14,11 +14,11 @@
     "static/media/tokusima_web.jpg": "/ka2coder-react/static/media/tokusima_web.9b1f6c90f20ef4845c20.jpg",
     "index.html": "/ka2coder-react/index.html",
     "main.45e81d9d.css.map": "/ka2coder-react/static/css/main.45e81d9d.css.map",
-    "main.5d2bc306.js.map": "/ka2coder-react/static/js/main.5d2bc306.js.map",
+    "main.6a88cf59.js.map": "/ka2coder-react/static/js/main.6a88cf59.js.map",
     "453.97196260.chunk.js.map": "/ka2coder-react/static/js/453.97196260.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45e81d9d.css",
-    "static/js/main.5d2bc306.js"
+    "static/js/main.6a88cf59.js"
   ]
 }
