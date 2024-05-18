@@ -55,19 +55,19 @@ class Page extends Component {
               <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <Link className="nav-link" to="/">Home</Link>
+                    <Link className="nav-link" to="/ka2coder-react/">Home</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/Career">Career</Link>
+                    <Link className="nav-link" to="/ka2coder-react/Career">Career</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/Works">Works</Link>
+                    <Link className="nav-link" to="/ka2coder-react/Works">Works</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/Study">Study</Link>
+                    <Link className="nav-link" to="/ka2coder-react/Study">Study</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/Contact">Contact</Link>
+                    <Link className="nav-link" to="/ka2coder-react/Contact">Contact</Link>
                   </li>
                 </ul>
               </div>
@@ -75,9 +75,9 @@ class Page extends Component {
             </div>
           </nav>
           <Routes basename="/your-base-name">
-            <Route path="/" element={<TopPage />} />
-            <Route path="/Career" element={<CareerPage />} />
-            <Route path="/Works" element={<WorksPage />} />
+            <Route path="/ka2coder-react" element={<TopPage />} />
+            <Route path="/ka2coder-react/Career" element={<CareerPage />} />
+            <Route path="/ka2coder-react/Works" element={<WorksPage />} />
             {/*<Route path="/Study" element={<Study />} /> /*}
             {/*<Route path="/Contact" element={<Contact />} />*/}
           </Routes>
