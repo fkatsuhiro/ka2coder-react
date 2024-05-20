@@ -36,7 +36,7 @@ class Page extends Component {
         <div>
           <nav className="navbar navbar-expand-lg navbar-light bg-light hline width-100" style={{ position: 'fixed', zIndex: 100 }}>
             <div className="container">
-              <Link className="navbar-brand" to="/">
+              <Link className="navbar-brand" to="/ka2coder-react/">
                 <img src={icon} alt="Your Logo" className="circle-icon" />
               </Link>
               <span className="logo-font">Ka2Coder</span>
