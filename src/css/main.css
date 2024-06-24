@@ -1,34 +1,3 @@
-/*@font-face {
-    font-family: 'Ubuntu Mono italic 400';
-    font-style: italic;
-    font-weight: 400;
-    font-display: swap;
-    src: url(font/UbuntuMono-Italic.ttf) format('woff2');
-}
-@font-face {
-    font-family: 'Ubuntu Mono italic 700';
-    font-style: italic;
-    font-weight: 700;
-    font-display: swap;
-    src: url(font/UbuntuMono-BoldItalic.ttf) format('woff2');
-}
-
-@font-face {
-    font-family: 'Ubuntu Mono 400';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(font/UbuntuMono-Regular.ttf) format('woff2');
-}
-
-@font-face {
-    font-family: 'Ubuntu Mono 700';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url(font/UbuntuMono-Bold.ttf) format('woff2');
-}*/
-
 /*ページ全体の背景の色*/
 .background {
     background-color: #e6e6e6;
@@ -75,11 +44,11 @@
     font-size:1.5rem
 }
 
-/*コンポーネントのCSS*/
-.Component{
+/*画面幅に充てるためのCSS*/
+.Main-Screen-Width{
     width: 95%;
     margin: 0 auto;
-    cursor: pointer;
+    /*cursor: pointer;*/
     text-align: center;
 }
 
@@ -107,10 +76,19 @@
 }
 
 /*作品一覧用css*/
-.works-com{
+.Works-Content{
     border-radius: 15px;
     background-color: #fff;
     color: #333;
+}
+
+.Works-Create-Reason{
+    text-align: left;
+
+}
+
+.WorksDescriptionContent{
+    text-align: center;
 }
 
 /*worksのコンポーネントごとのcss*/

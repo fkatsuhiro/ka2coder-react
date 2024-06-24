@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './css/bootstrap.css';
 import './css/main.css';
 
-class Study extends Component {
+class StudyContent extends Component {
   render() {
     const { subTitle, subText, calcMethod ,Content } = this.props;
 
@@ -17,4 +17,4 @@ class Study extends Component {
   }
 }
 
-export default Study;
+export default StudyContent;

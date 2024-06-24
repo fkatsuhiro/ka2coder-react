@@ -7,6 +7,7 @@ import TopPage from './TopPage';
 import WorksPage from './WorksPage';
 import CareerPage from './CareerPage';
 import StudyPage from './StudyPage';
+import WorksPagesUpdate from './WorksPagesUpdate';
 
 class Page extends Component {
   constructor(props) {
@@ -77,7 +78,7 @@ class Page extends Component {
           <Routes basename="/your-base-name">
             <Route path="/ka2coder-react" element={<TopPage />} />
             <Route path="/ka2coder-react/Career" element={<CareerPage />} />
-            <Route path="/ka2coder-react/Works" element={<WorksPage />} />
+            <Route path="/ka2coder-react/Works" element={<WorksPagesUpdate />} />
             {/*<Route path="/Study" element={<Study />} /> /*}
             {/*<Route path="/Contact" element={<Contact />} />*/}
           </Routes>

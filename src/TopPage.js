@@ -12,7 +12,7 @@ import Graph from './images/graphimage.jpg';
 import Tokushima from './images/tokusima_web.jpg';
 import OldPortforio from './images/OldPortforio.jpg';
 import Career from './Career';
-import Study from './Study';
+import StudyContent from './StudyContent';
 import SkillContent from './SkillContent';
 import LinkObject from './LinkObject';
 
@@ -36,7 +36,7 @@ class TopPage extends Component {
       { subTitle: 'Inspiration株式会社', subText: '期間: 2023/9~2024/2', Content: '開発のポジションで業務に携わりました。 自社開発のアプリケーションのデザイン修正や新規HPの実装を主に担当しました。日々の業務では、1日に1回程度、エンジニアの方とコミュニケーションを取りながら業務の進捗状況や課題について相談し、アドバイスをいただきました。 この経験を通じて、コードの可読性やCSSの命名規則など、個人プロジェクトと業務でのコーディングの違いを学びました。また、実務経験を通して、チームでの効果的なコミュニケーションやプロジェクトの推進力も身につけることができました。' }
     ];
 
-    const StudyContent = [
+    const Study = [
       { subTitle: '非常に重たい原子核の核構造に関しての研究', subText: '使用言語 : C言語', calcMethod: '用いた計算手法 : モンテカルロ法', Content: '近年、重量子のような地球上には存在しないほどの質量数をもつ原子核が、バブル型の構造をとるのではないかという仮説とトーラス型の構造をとるのではないかという2つの説が唱えられています。 そこで、原子核のエネルギーの算出方法として有名な手法の1つである、ベーテ・ワイチェッカーの半経験的質量公式を用いて簡易的な原子核モデルを考えて数値的にエネルギーを算出することにしました。' }
     ];
 
@@ -90,9 +90,9 @@ class TopPage extends Component {
             )
           })}
           <p className='midasi'>Study</p>
-          {StudyContent.map((ContentItem) => {
+          {Study.map((ContentItem) => {
             return (
-              <Study subTitle={ContentItem.subTitle} subText={ContentItem.subText} calcMethod={ContentItem.calcMethod} Content={ContentItem.Content} />
+              <StudyContent subTitle={ContentItem.subTitle} subText={ContentItem.subText} calcMethod={ContentItem.calcMethod} Content={ContentItem.Content} />
             )
           })}
           <p className='midasi'>Skill Set</p>

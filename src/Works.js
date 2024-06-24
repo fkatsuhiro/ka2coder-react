@@ -5,7 +5,7 @@ class Works extends Component {
     const { componentUrl, imgUrl, componentName } = this.props;
     return (
       <div>
-        <div className="works-com Component">
+        <div className="Works-Content Main-Screen-Width">
           <a href={componentUrl} target="_blank" rel="noopener noreferrer">
             <img src={imgUrl} className='images' />
             <div className="name-comp">{componentName}</div>
