@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './css/bootstrap.css';
 import './css/main.css';
 import icon from './images/icon.jpg';
 import TopPage from './TopPage';
-import WorksPage from './WorksPage';
+/*削除予定*/
+/*import WorksPage from './WorksPage';*/
 import CareerPage from './CareerPage';
 import StudyPage from './StudyPage';
 import WorksPagesUpdate from './WorksPagesUpdate';
+import RakusInternShip from './RakusInternShip';
+import IstyleInternShip from './istyleInternship';
 
 class Page extends Component {
   constructor(props) {
@@ -49,7 +54,6 @@ class Page extends Component {
                   <li><Link className="dropdown-item" to="/ka2coder-react/Career">Career</Link></li>
                   <li><Link className="dropdown-item" to="/ka2coder-react/Works">Works</Link></li>
                   <li><Link className="dropdown-item" to="/ka2coder-react/Study">Study</Link></li>
-                  <li><Link className="dropdown-item" to="/ka2coder-react/Contact">Contact</Link></li>
                 </ul>
               </div>
               ) : (
@@ -67,9 +71,6 @@ class Page extends Component {
                   <li className="nav-item">
                     <Link className="nav-link" to="/ka2coder-react/Study">Study</Link>
                   </li>
-                  <li className="nav-item">
-                    <Link className="nav-link" to="/ka2coder-react/Contact">Contact</Link>
-                  </li>
                 </ul>
               </div>
             )}
@@ -79,8 +80,9 @@ class Page extends Component {
             <Route path="/ka2coder-react" element={<TopPage />} />
             <Route path="/ka2coder-react/Career" element={<CareerPage />} />
             <Route path="/ka2coder-react/Works" element={<WorksPagesUpdate />} />
-            {/*<Route path="/Study" element={<Study />} /> /*}
-            {/*<Route path="/Contact" element={<Contact />} />*/}
+            {/*<Route path="/Study" element={<Study />} /> */}
+            <Route path='/ka2coder-react/Career/Rakus' element={<RakusInternShip />} />
+            <Route path='/ka2coder-react/Career/istyle' element={<IstyleInternShip /> } />
           </Routes>
         </div>
       </Router>

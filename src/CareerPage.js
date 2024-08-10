@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import CareerCollage from './CareerCollage';
 import Career from './Career';
 import faceUrl from './images/face.jpg';
+import SummerIntern from './SummerIntern';
 import './css/bootstrap.css';
 import './css/main.css';
 
@@ -13,10 +14,18 @@ class CareerPage extends Component{
         ];
 
         const CareerCollageText = [
-            { Text: '2020/4 国立法人千葉大学 入学'},
-            { Text: '2024/3 国立法人千葉大学 卒業'},
-            { Text: '2024/4 国立法人東京大学 入学'},
+            { Text: '2017/4 三重県立四日市高等学校 普通科 入学'},
+            { Text: '2020/3 三重県立四日市高等学校 普通科 卒業'},
+            { Text: '2020/4 千葉大学 理学部 物理学科 入学'},
+            { Text: '2024/3 千葉大学 理学部 物理学科 卒業'},
+            { Text: '2024/4 東京大学大学院 工学系研究科 バイオエンジニアリング専攻 入学'},
         ];
+
+        const SummerInternComponent = [
+            { CompanyName: 'istyle株式会社', SpanForInternShip: '2024/7/1~7/31 (1カ月就業型)', PositionOfIntern: 'フルスタック', UseLanguage: 'Vue.js, PHP, GO, SQL', Content: 'to B向けのWebアプリの開発フルスタックエンジニアとして参加させていただきました。主に不具合対応、機能修正に関して取り組みました。特に難しかった業務としては、クエリ処理速度改善に関しての業務でした。現状のデータ出力の際のランタイムエラーになるデータ量から、処理速度を改善して何倍程度のデータ出力が可能になるかという調査を実施し、それに基づいてデータ抽出の処理を変更しました。この就業型インターンシップでチーム開発のフローやコミュニケーションの大切さ、プロダクトの背景を理解することなどエンジニアに必要な多くのことを知ることができました。', url: 'istyle'},
+            { CompanyName: 'ラクス株式会社', SpanForInternShip: '2024/7/23.25,8/1,8', PositionOfIntern: 'フロント', UseLanguage: 'Vue.js, SQL', Content: '4日間、期間3週間のハッカソンに参加しました。5人でチームを作り、それをもとに、チャットアプリという制約の下で開発を行いました。作ったサービスは、大学生の質問箱のようなアプリです。コンセプトとしては、同じ大学の人と匿名で質問をすることができるというものです。投稿、メモ、入室者人数カウント、画面内スクロールなどの機能を付与してあります。', url: 'Rakus'},
+
+        ]
 
         return(
             <div>
@@ -29,15 +38,33 @@ class CareerPage extends Component{
                         <div className='col-md-8'>
                             {CareerCollageText.map((CareerItem) => {
                                 return(
-                                    <CareerCollage Text={CareerItem.Text} />
+                                    < CareerCollage Text={CareerItem.Text} />
                                 )
                             })}
-                            {CareerContent.map((CareerItem) => {
-                                return(
-                                    <Career subTitle={CareerItem.subTitle} subText={CareerItem.subText} Content={CareerItem.Content} />
-                                )
-                            })}
+                            <div className='padding-bottom'></div>
                         </div>
+                    </div>
+                </div>
+                {/* Long span Internship Experience */}
+                <div className='long-span-internship-background'>
+                    <p className='padding-bottom long-span-internship-title'>Long Internship</p>
+                    <div className='long-span-internship'>
+                    {CareerContent.map((CareerItem) => {
+                        return(
+                            < Career subTitle={CareerItem.subTitle} subText={CareerItem.subText} Content={CareerItem.Content} />
+                        )
+                    })}
+                    </div>
+                </div>
+                {/* Summer Intern Ship Experience */}
+                <div className='summer-internship-background'>
+                    <p className='padding-bottom long-span-internship-title'>Summer Internship</p>
+                    <div className='summer-internship'>
+                    {SummerInternComponent.map((SummerInternContent) => {
+                        return (
+                            < SummerIntern CompanyName={ SummerInternContent.CompanyName } SpanForInternShip={ SummerInternContent.SpanForInternShip } PositionOfIntern={ SummerInternContent.PositionOfIntern } UseLanguage={ SummerInternContent.UseLanguage } Content={ SummerInternContent.Content } url={ SummerInternContent.url} />
+                        )
+                    })}
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@ class Career extends Component {
     const { subTitle, subText, Content } = this.props;
 
     return (
-      <div>
+      <div className='padding-bottom'>
         <div className='subTitle'>{subTitle}</div>
         <div className='bold'>{subText}</div>
         <div>{Content}</div>

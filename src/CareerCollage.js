@@ -7,7 +7,7 @@ class CareerCollage extends Component {
     const { Text } = this.props;
 
     return (
-      <div>
+      <div className='padding-bottom'>
         <div className='textCollage'>{Text}</div>
       </div>
     );
