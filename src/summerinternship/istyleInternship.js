@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './css/bootstrap.css';
-import './css/main.css';
+import '../css/bootstrap.css';
+import '../css/main.css';
 
 class IstyleInternShip extends Component {
     render() {

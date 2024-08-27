@@ -11,8 +11,8 @@ import TopPage from './TopPage';
 import CareerPage from './CareerPage';
 import StudyPage from './StudyPage';
 import WorksPagesUpdate from './WorksPagesUpdate';
-import RakusInternShip from './RakusInternShip';
-import IstyleInternShip from './istyleInternship';
+import RakusInternShip from './summerinternship/RakusInternShip';
+import IstyleInternShip from './summerinternship/istyleInternship';
 
 class Page extends Component {
   constructor(props) {

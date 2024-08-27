@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './css/bootstrap.css';
-import './css/main.css';
-import RakusVideo1 from './video/rakus_demo_video.mp4';
-import RakusVideo2 from './video/Vue.mp4';
+import '../css/bootstrap.css';
+import '../css/main.css';
+import RakusVideo1 from '../video/rakus_demo_video.mp4';
+import RakusVideo2 from '../video/Vue.mp4';
 
 class RakusInternShip extends Component {
     render() {
@@ -50,23 +50,6 @@ class RakusInternShip extends Component {
                         <video width="100%" controls>
                             <source src={RakusVideo2} type="video/mp4" />
                         </video>
-                        <h5 className='internship-text'>インターンスケジュール</h5>
-                        <h6 className='internship-text'>1日目</h6>
-                        <div className='internship-text'>
-                            1日目は、主にラクス株式会社の会社説明と、チーム内でのブレイクタイムがあり、その後、資料を基に環境準備を行いました。その後、開発するアプリをどんな内容にするかをチーム内で話し合い、その日の活動は終わりました。
-                        </div>
-                        <h6 className='internship-text'>2日目</h6>
-                        <div className='internship-text' >
-                            2日目は、エンジニア社員の方の日常、入社からのスケジュールなど、入社後の雰囲気の説明と質疑応答、その後開発時間と平行して社員の方と1on1を行いました。
-                        </div>
-                        <h6 className='internship-text'>3日目</h6>
-                        <div className='internship-text'>
-                            3日目は製品の説明、開発時間、最終発表の案内がありました。この日は開発の時間が多く取れ、チーム内で最終発表に向けてするべきことを洗い出すことができました。
-                        </div>
-                        <h6 className='internship-text'>4日目</h6>
-                        <div className='internship-text'>
-                            最終日にチームで成果発表を行いました。その後は、社員の方を交えて懇親会があり、楽しくインターンシップの活動をすることができました。
-                        </div>
                         <div className='internship-text'></div>
                     </div>
 
