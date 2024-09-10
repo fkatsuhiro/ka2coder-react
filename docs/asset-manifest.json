@@ -1,31 +1,34 @@
 {
   "files": {
-    "main.css": "/ka2coder-react/static/css/main.87bb054a.css",
-    "main.js": "/ka2coder-react/static/js/main.7ab969ff.js",
+    "main.css": "/ka2coder-react/static/css/main.2432488e.css",
+    "main.js": "/ka2coder-react/static/js/main.13e41d3d.js",
     "static/js/453.97196260.chunk.js": "/ka2coder-react/static/js/453.97196260.chunk.js",
     "static/media/rakus_demo_video.mp4": "/ka2coder-react/static/media/rakus_demo_video.4147d8c9cf9f142c62ed.mp4",
     "static/media/Vue.mp4": "/ka2coder-react/static/media/Vue.363d380ce6304ccf2fa8.mp4",
     "static/media/ChibaunivHP.png": "/ka2coder-react/static/media/ChibaunivHP.6afeae9b1d784e901c3b.png",
-    "static/media/OldPortforio.jpg": "/ka2coder-react/static/media/OldPortforio.e5e0e0866f44f8a4790b.jpg",
     "static/media/face.jpg": "/ka2coder-react/static/media/face.73fbbe0c4b5afc212d5b.jpg",
-    "static/media/webapp.jpg": "/ka2coder-react/static/media/webapp.c16ffb4970b091535069.jpg",
-    "static/media/hpimages.jpg": "/ka2coder-react/static/media/hpimages.4a3c091492d236c29200.jpg",
-    "static/media/graphimage.jpg": "/ka2coder-react/static/media/graphimage.84fa71880ec9a4d23610.jpg",
+    "static/media/chatapp.png": "/ka2coder-react/static/media/chatapp.53a72f451266cc94732a.png",
     "static/media/ToyotaTokushimaHP.png": "/ka2coder-react/static/media/ToyotaTokushimaHP.50e0b3c9f6e99e938f19.png",
+    "static/media/webtext.png": "/ka2coder-react/static/media/webtext.0c86a3f46fee0911dbec.png",
     "static/media/icon.jpg": "/ka2coder-react/static/media/icon.28ac822ac2a40edec43c.jpg",
-    "static/media/calcimage.jpg": "/ka2coder-react/static/media/calcimage.ff20c0f87ab7268d6807.jpg",
-    "static/media/NodeJsLogin.jpg": "/ka2coder-react/static/media/NodeJsLogin.954527dc8b78bb361c08.jpg",
-    "static/media/formimages.jpg": "/ka2coder-react/static/media/formimages.7beb05751addbc0c01d9.jpg",
+    "static/media/undraw_open-github-vue.png": "/ka2coder-react/static/media/undraw_open-github-vue.8415de01b1d55383c6d0.png",
     "static/media/PointRecordApp.png": "/ka2coder-react/static/media/PointRecordApp.b53a30dacef65e76f64c.png",
+    "static/media/undraw_Programming.png": "/ka2coder-react/static/media/undraw_Programming.7d71b8301a753e6790e7.png",
+    "static/media/undraw_Designer_girl.png": "/ka2coder-react/static/media/undraw_Designer_girl.34cf0d846b3dd34e0e8c.png",
+    "static/media/undraw_Work_time.png": "/ka2coder-react/static/media/undraw_Work_time.3b4d6b367ca69f5b7166.png",
+    "static/media/undraw_Pie_graph_re_fvol.png": "/ka2coder-react/static/media/undraw_Pie_graph_re_fvol.fecdae8af2a402af3797.png",
+    "static/media/undraw_fixing_bugs.png": "/ka2coder-react/static/media/undraw_fixing_bugs.70b071edea497c487930.png",
     "static/media/MarkdownPdf.png": "/ka2coder-react/static/media/MarkdownPdf.4f4f989c1bad832addc4.png",
-    "static/media/tokusima_web.jpg": "/ka2coder-react/static/media/tokusima_web.9b1f6c90f20ef4845c20.jpg",
+    "static/media/undraw_Calculator_re_alsc.png": "/ka2coder-react/static/media/undraw_Calculator_re_alsc.115ffd0a7a23e25025eb.png",
+    "static/media/undraw_Dashboard.png": "/ka2coder-react/static/media/undraw_Dashboard.0d66519a59a553bdf685.png",
+    "static/media/undraw_Forms_re_pkrt.png": "/ka2coder-react/static/media/undraw_Forms_re_pkrt.26c2b7c482bf90246ebf.png",
     "index.html": "/ka2coder-react/index.html",
-    "main.87bb054a.css.map": "/ka2coder-react/static/css/main.87bb054a.css.map",
-    "main.7ab969ff.js.map": "/ka2coder-react/static/js/main.7ab969ff.js.map",
+    "main.2432488e.css.map": "/ka2coder-react/static/css/main.2432488e.css.map",
+    "main.13e41d3d.js.map": "/ka2coder-react/static/js/main.13e41d3d.js.map",
     "453.97196260.chunk.js.map": "/ka2coder-react/static/js/453.97196260.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87bb054a.css",
-    "static/js/main.7ab969ff.js"
+    "static/css/main.2432488e.css",
+    "static/js/main.13e41d3d.js"
   ]
 }
