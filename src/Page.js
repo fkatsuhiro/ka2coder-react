@@ -80,7 +80,7 @@ class Page extends Component {
             <Route path="/ka2coder-react" element={<TopPage />} />
             <Route path="/ka2coder-react/Career" element={<CareerPage />} />
             <Route path="/ka2coder-react/Works" element={<WorksPagesUpdate />} />
-            {/*<Route path="/Study" element={<Study />} /> */}
+            <Route path="/ka2coder-react/Study" element={<StudyPage />} />
             <Route path='/ka2coder-react/Career/Rakus' element={<RakusInternShip />} />
             <Route path='/ka2coder-react/Career/istyle' element={<IstyleInternShip /> } />
           </Routes>

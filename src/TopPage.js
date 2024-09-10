@@ -3,15 +3,15 @@ import './css/bootstrap.css';
 import './css/main.css';
 import About from './About';
 import Works from './Works';
-import hpImage from './images/hpimages.jpg';
-import NodeJsLogin from './images/NodeJsLogin.jpg';
-import Roulette from './images/roulette-app.jpg';
-import Webapp from './images/webapp.jpg';
-import Calc from './images/calcimage.jpg';
-import Form from './images/formimages.jpg';
-import Graph from './images/graphimage.jpg';
-import Tokushima from './images/tokusima_web.jpg';
-import OldPortforio from './images/OldPortforio.jpg';
+import hpImage from './images/undraw_fixing_bugs.png';
+import NodeJsLogin from './images/undraw_Work_time.png';
+import Webtext from './images/undraw_open-github-vue.png';
+import Roulette from './images/undraw_Pie_graph_re_fvol.png';
+import Webapp from './images/undraw_Programming.png';
+import Calc from './images/undraw_Calculator_re_alsc.png';
+import Form from './images/undraw_Forms_re_pkrt.png';
+import Graph from './images/undraw_Dashboard.png';
+import Tokushima from './images/undraw_Designer_girl.png';
 import Career from './Career';
 import StudyContent from './StudyContent';
 import SkillContent from './SkillContent';
@@ -22,6 +22,7 @@ class TopPage extends Component {
   render() {
     //Worksコンポーネントに代入するprops
     const Links = [
+      { pageUrl: 'https://fkatsuhiro.github.io/webtext/', imgUrl: Webtext, componentName: '技術ブログ' },
       { pageUrl: 'https://github.com/fkatsuhiro/NodeJS_Login', imgUrl: NodeJsLogin , componentName: 'Markdown資料作成ツール'},
       { pageUrl: 'https://fkatsuhiro.github.io/PointRecord-app/', imgUrl: Webapp, componentName: '試合記録アプリ' },
       { pageUrl: 'https://fkatsuhiro.github.io/calc/', imgUrl: Calc, componentName: '電卓機能' },
@@ -30,7 +31,6 @@ class TopPage extends Component {
       { pageUrl: 'https://corolla-tokushima.shojiki-satei.com/simulation', imgUrl: Tokushima, componentName: 'トヨタカローラ徳島 正直査定' },
       { pageUrl: 'https://chiba-univ-tennis.com/', imgUrl: hpImage, componentName: '千葉大学硬式庭球部' },
       { pageUrl: 'https://fkatsuhiro.github.io/Roulette/', imgUrl: Roulette, componentName: 'ルーレットアプリ' },
-      { pageUrl: 'https://fkatsuhiro.github.io/ka2coder/', imgUrl:OldPortforio, componentName: '(旧)ポートフォリオ' },
     ];
 
     const CareerContent = [

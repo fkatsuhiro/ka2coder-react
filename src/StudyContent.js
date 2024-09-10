@@ -4,13 +4,11 @@ import './css/main.css';
 
 class StudyContent extends Component {
   render() {
-    const { subTitle, subText, calcMethod ,Content } = this.props;
+    const { subTitle,Content } = this.props;
 
     return (
       <div>
         <div className='subTitle'>{subTitle}</div>
-        <div className='bold'>{subText}</div>
-        <div className='bold'>{calcMethod}</div>
         <div>{Content}</div>
       </div>
     );

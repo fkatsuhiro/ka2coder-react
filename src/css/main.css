@@ -47,14 +47,20 @@
 
 /*画面幅に充てるためのCSS*/
 .Main-Screen-Width{
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     /*cursor: pointer;*/
     text-align: center;
 }
 
-.images{
-    width: 80%;
+.images {
+    width: 95%;
+    margin: 30px auto;
+}
+
+.works-images{
+    width: 250px;
+    height: 200px;
     margin: 30px auto;
 }
 

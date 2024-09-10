@@ -7,7 +7,7 @@ class Works extends Component {
       <div>
         <div className="Works-Content Main-Screen-Width">
           <a href={componentUrl} target="_blank" rel="noopener noreferrer">
-            <img src={imgUrl} className='images' />
+            <img src={imgUrl} className='works-images' />
             <div className="name-comp">{componentName}</div>
             <br />
           </a>
