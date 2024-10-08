@@ -19,6 +19,9 @@ class CareerPage extends Component{
             { Text: '2020/4 千葉大学 理学部 物理学科 入学'},
             { Text: '2024/3 千葉大学 理学部 物理学科 卒業'},
             { Text: '2024/4 東京大学大学院 工学系研究科 バイオエンジニアリング専攻 入学'},
+            { Text: '2024/9/4 外資就活1on1面談イベント選抜'},
+            { Text: '2024/9/14 サポーターズ1on1イベント(ハイクラス)選抜'},
+            { Text: '2024/10/19 Vue Fes Japan 2024スタッフ'},
         ];
 
         const SummerInternComponent = [

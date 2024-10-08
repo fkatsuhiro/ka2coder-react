@@ -22,14 +22,15 @@ class TopPage extends Component {
   render() {
     //Worksコンポーネントに代入するprops
     const Links = [
+      { pageUrl: 'https://work-efficiency.onrender.com/', imgUrl: Form, componentName: '業務効率化アプリ' },
       { pageUrl: 'https://fkatsuhiro.github.io/webtext/', imgUrl: Webtext, componentName: '技術ブログ' },
       { pageUrl: 'https://github.com/fkatsuhiro/NodeJS_Login', imgUrl: NodeJsLogin , componentName: 'Markdown資料作成ツール'},
       { pageUrl: 'https://fkatsuhiro.github.io/PointRecord-app/', imgUrl: Webapp, componentName: '試合記録アプリ' },
+      { pageUrl: 'https://chiba-univ-tennis.com/', imgUrl: hpImage, componentName: '千葉大学硬式庭球部' },
+      { pageUrl: 'https://corolla-tokushima.shojiki-satei.com/simulation', imgUrl: Tokushima, componentName: 'トヨタカローラ徳島 正直査定' },
       { pageUrl: 'https://fkatsuhiro.github.io/calc/', imgUrl: Calc, componentName: '電卓機能' },
       { pageUrl: 'https://fkatsuhiro.github.io/kintasystem/', imgUrl: Form, componentName: '予約入力フォーム' },
       { pageUrl: 'https://fkatsuhiro.github.io/graf_type/', imgUrl: Graph, componentName: 'グラフ作成ツール' },
-      { pageUrl: 'https://corolla-tokushima.shojiki-satei.com/simulation', imgUrl: Tokushima, componentName: 'トヨタカローラ徳島 正直査定' },
-      { pageUrl: 'https://chiba-univ-tennis.com/', imgUrl: hpImage, componentName: '千葉大学硬式庭球部' },
       { pageUrl: 'https://fkatsuhiro.github.io/Roulette/', imgUrl: Roulette, componentName: 'ルーレットアプリ' },
     ];
 
