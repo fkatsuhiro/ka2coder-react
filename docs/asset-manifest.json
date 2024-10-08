@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/ka2coder-react/static/css/main.2432488e.css",
-    "main.js": "/ka2coder-react/static/js/main.13e41d3d.js",
+    "main.js": "/ka2coder-react/static/js/main.7564aad1.js",
     "static/js/453.97196260.chunk.js": "/ka2coder-react/static/js/453.97196260.chunk.js",
     "static/media/rakus_demo_video.mp4": "/ka2coder-react/static/media/rakus_demo_video.4147d8c9cf9f142c62ed.mp4",
     "static/media/Vue.mp4": "/ka2coder-react/static/media/Vue.363d380ce6304ccf2fa8.mp4",
     "static/media/ChibaunivHP.png": "/ka2coder-react/static/media/ChibaunivHP.6afeae9b1d784e901c3b.png",
     "static/media/face.jpg": "/ka2coder-react/static/media/face.73fbbe0c4b5afc212d5b.jpg",
     "static/media/chatapp.png": "/ka2coder-react/static/media/chatapp.53a72f451266cc94732a.png",
+    "static/media/TopImage.png": "/ka2coder-react/static/media/TopImage.79b70742cc112af804c0.png",
     "static/media/ToyotaTokushimaHP.png": "/ka2coder-react/static/media/ToyotaTokushimaHP.50e0b3c9f6e99e938f19.png",
     "static/media/webtext.png": "/ka2coder-react/static/media/webtext.0c86a3f46fee0911dbec.png",
     "static/media/icon.jpg": "/ka2coder-react/static/media/icon.28ac822ac2a40edec43c.jpg",
@@ -24,11 +25,11 @@
     "static/media/undraw_Forms_re_pkrt.png": "/ka2coder-react/static/media/undraw_Forms_re_pkrt.26c2b7c482bf90246ebf.png",
     "index.html": "/ka2coder-react/index.html",
     "main.2432488e.css.map": "/ka2coder-react/static/css/main.2432488e.css.map",
-    "main.13e41d3d.js.map": "/ka2coder-react/static/js/main.13e41d3d.js.map",
+    "main.7564aad1.js.map": "/ka2coder-react/static/js/main.7564aad1.js.map",
     "453.97196260.chunk.js.map": "/ka2coder-react/static/js/453.97196260.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2432488e.css",
-    "static/js/main.13e41d3d.js"
+    "static/js/main.7564aad1.js"
   ]
 }
