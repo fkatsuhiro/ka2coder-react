@@ -19,10 +19,18 @@
     text-align:center;
 }
 
+.internTitle {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-bottom: .5rem;
+    text-align: left;
+}
+
 .textCollage{
     font-weight: bold; 
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: left;
+    padding-left: 10px;
 }
 
 .image{

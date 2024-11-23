@@ -6,8 +6,6 @@ import './css/bootstrap.css';
 import './css/main.css';
 import icon from './images/icon.jpg';
 import TopPage from './TopPage';
-/*削除予定*/
-/*import WorksPage from './WorksPage';*/
 import CareerPage from './CareerPage';
 import StudyPage from './StudyPage';
 import WorksPagesUpdate from './WorksPagesUpdate';

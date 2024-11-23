@@ -21,9 +21,9 @@ class WorksWiderContent extends Component {
             <div className='row'>
                 <h6 className='col-md-5 Works-Create-Reason'>言語:{WorksUseLanguage}</h6>
                 <h6 className='col-md-7'>
-                  <div><span style={{color:'blue', fontSize: '1rem'}}>URL</span>:<a href={WorksUrl} target="_blank" rel="noopener noreferrer">{WorksUrl}</a></div>
-                  <div><span style={{color:'blue', fontSize: '1rem'}}>Git Repository</span>: <a href={RepositoryUrl} target='_brank' rel="noopener noreferrer">{RepositoryUrl}</a></div>
-                  <div><span style={{color:'blue', fontSize: '1rem'}}>Explain Slide</span>: <a href={ExplainUrl} target='_brank' rel="noopener noreferrer">{ExplainUrl}</a></div>
+                  <div style={{textAlign: 'left'}}><span style={{color:'blue', fontSize: '1rem'}}>URL</span>:<a href={WorksUrl} target="_blank" rel="noopener noreferrer">プロダクトのURLはこちら</a></div>
+                  <div style={{textAlign: 'left'}}><span style={{color:'blue', fontSize: '1rem'}}>Git Repository</span>: <a href={RepositoryUrl} target='_brank' rel="noopener noreferrer">リポジトリのURLはこちら</a></div>
+                  <div style={{textAlign: 'left'}}><span style={{color:'blue', fontSize: '1rem'}}>Explain Slide</span>: <a href={ExplainUrl} target='_brank' rel="noopener noreferrer">説明スライドはこちら</a></div>
                 </h6>
             </div>
         </div>

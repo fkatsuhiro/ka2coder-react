@@ -19,10 +19,16 @@ class CareerPage extends Component{
             { Text: '2020/4 千葉大学 理学部 物理学科 入学'},
             { Text: '2024/3 千葉大学 理学部 物理学科 卒業'},
             { Text: '2024/4 東京大学大学院 工学系研究科 バイオエンジニアリング専攻 入学'},
-            { Text: '2024/9/4 外資就活1on1面談イベント選抜'},
-            { Text: '2024/9/14 サポーターズ1on1イベント(ハイクラス)選抜'},
-            { Text: '2024/10/19 Vue Fes Japan 2024スタッフ'},
         ];
+
+        const EngineerIvent = [
+            { Text: '2024/9/4 外資就活1on1面談イベント参加'},
+            { Text: '2024/9/14 サポーターズ1on1イベント(ハイクラス)参加'},
+            { Text: '2024/10/19 Vue Fes Japan 2024スタッフ'},
+            { Text: '2024/10/20 サポーターズ1on1イベント(スタンダード)参加'},
+            { Text: '2024/11/12 BEELT 登壇 「Index と Metaデータを用いた検索処理高速化に関して」'},
+            { Text: '2024/11/23 サポーターズ1on1イベント(ハイクラス)参加'}
+        ]
 
         const SummerInternComponent = [
             { CompanyName: 'istyle株式会社', SpanForInternShip: '2024/7/1~7/31 (1カ月就業型)', PositionOfIntern: 'フルスタック', UseLanguage: 'Vue.js, PHP, GO, SQL', Content: 'to B向けのWebアプリの開発フルスタックエンジニアとして参加させていただきました。主に不具合対応、機能修正に関して取り組みました。特に難しかった業務としては、クエリ処理速度改善に関しての業務でした。現状のデータ出力の際のランタイムエラーになるデータ量から、処理速度を改善して何倍程度のデータ出力が可能になるかという調査を実施し、それに基づいてデータ抽出の処理を変更しました。この就業型インターンシップでチーム開発のフローやコミュニケーションの大切さ、プロダクトの背景を理解することなどエンジニアに必要な多くのことを知ることができました。', url: 'istyle'},
@@ -35,10 +41,10 @@ class CareerPage extends Component{
                 <div className='page'>
                     <p className='midasi'>Career</p>
                     <div className='row'>
-                        <div className='col-md-4'>
+                        <div className='col-md-3'>
                             <img className='image' src={faceUrl} />
                         </div>
-                        <div className='col-md-8'>
+                        <div className='col-md-9'>
                             {CareerCollageText.map((CareerItem) => {
                                 return(
                                     < CareerCollage Text={CareerItem.Text} />
@@ -47,22 +53,24 @@ class CareerPage extends Component{
                             <div className='padding-bottom'></div>
                         </div>
                     </div>
-                </div>
-                {/* Long span Internship Experience */}
-                <div className='long-span-internship-background'>
-                    <p className='padding-bottom long-span-internship-title'>Long Internship</p>
-                    <div className='long-span-internship'>
+                    <p className='padding-bottom long-span-internship-title'>Another Infomation</p>
+                    <div style={{width: '90%', margin: '0 auto'}}>
+                            {EngineerIvent.map((CareerItem) => {
+                                return(
+                                    < CareerCollage Text={CareerItem.Text} />
+                                )
+                            })}
+                            <div className='padding-bottom'></div>
+                        </div>
+                    <p className='padding-bottom long-span-internship-title'>Internship</p>
+                    <div className=''>
                     {CareerContent.map((CareerItem) => {
                         return(
                             < Career subTitle={CareerItem.subTitle} subText={CareerItem.subText} Content={CareerItem.Content} />
                         )
                     })}
                     </div>
-                </div>
-                {/* Summer Intern Ship Experience */}
-                <div className='summer-internship-background'>
-                    <p className='padding-bottom long-span-internship-title'>Summer Internship</p>
-                    <div className='summer-internship'>
+                    <div className=''>
                     {SummerInternComponent.map((SummerInternContent) => {
                         return (
                             < SummerIntern CompanyName={ SummerInternContent.CompanyName } SpanForInternShip={ SummerInternContent.SpanForInternShip } PositionOfIntern={ SummerInternContent.PositionOfIntern } UseLanguage={ SummerInternContent.UseLanguage } Content={ SummerInternContent.Content } url={ SummerInternContent.url} />

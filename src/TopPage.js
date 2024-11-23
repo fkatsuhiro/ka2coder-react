@@ -55,8 +55,7 @@ class TopPage extends Component {
       { Language: 'Node', Describe: '個人開発にて使用,基本的な実装が可能'},
       { Language: 'Python', Describe: 'AtCoderコンテスト参加の際に使用,基本的な文法が使える' },
       { Language: 'C', Describe: '学部時代の研究での数値計算で使用(Gnplot等),基本的な文法が使える' },
-      { Language: 'SQL', Describe: '開発インターンシップにて使用,クエリの高速化など対応' },
-      { Language: 'PHP', Describe: 'Progateにて学習,基本的な文法が使える' },
+      { Language: 'SQL', Describe: '開発インターンシップにて使用,クエリの高速化など対応' }
     ];
 
     const LinkComponent = [
