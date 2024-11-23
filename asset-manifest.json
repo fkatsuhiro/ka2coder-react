@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/ka2coder-react/static/css/main.89c6d5e3.css",
+    "main.js": "/ka2coder-react/static/js/main.9dd64c97.js",
+    "static/js/453.97196260.chunk.js": "/ka2coder-react/static/js/453.97196260.chunk.js",
+    "static/media/rakus_demo_video.mp4": "/ka2coder-react/static/media/rakus_demo_video.4147d8c9cf9f142c62ed.mp4",
+    "static/media/Vue.mp4": "/ka2coder-react/static/media/Vue.363d380ce6304ccf2fa8.mp4",
+    "static/media/ChibaunivHP.png": "/ka2coder-react/static/media/ChibaunivHP.6afeae9b1d784e901c3b.png",
+    "static/media/face.jpg": "/ka2coder-react/static/media/face.73fbbe0c4b5afc212d5b.jpg",
+    "static/media/chatapp.png": "/ka2coder-react/static/media/chatapp.53a72f451266cc94732a.png",
+    "static/media/TopImage.png": "/ka2coder-react/static/media/TopImage.79b70742cc112af804c0.png",
+    "static/media/ToyotaTokushimaHP.png": "/ka2coder-react/static/media/ToyotaTokushimaHP.50e0b3c9f6e99e938f19.png",
+    "static/media/webtext.png": "/ka2coder-react/static/media/webtext.0c86a3f46fee0911dbec.png",
+    "static/media/icon.jpg": "/ka2coder-react/static/media/icon.28ac822ac2a40edec43c.jpg",
+    "static/media/undraw_open-github-vue.png": "/ka2coder-react/static/media/undraw_open-github-vue.8415de01b1d55383c6d0.png",
+    "static/media/PointRecordApp.png": "/ka2coder-react/static/media/PointRecordApp.b53a30dacef65e76f64c.png",
+    "static/media/undraw_Programming.png": "/ka2coder-react/static/media/undraw_Programming.7d71b8301a753e6790e7.png",
+    "static/media/undraw_Designer_girl.png": "/ka2coder-react/static/media/undraw_Designer_girl.34cf0d846b3dd34e0e8c.png",
+    "static/media/undraw_Work_time.png": "/ka2coder-react/static/media/undraw_Work_time.3b4d6b367ca69f5b7166.png",
+    "static/media/undraw_Pie_graph_re_fvol.png": "/ka2coder-react/static/media/undraw_Pie_graph_re_fvol.fecdae8af2a402af3797.png",
+    "static/media/undraw_fixing_bugs.png": "/ka2coder-react/static/media/undraw_fixing_bugs.70b071edea497c487930.png",
+    "static/media/MarkdownPdf.png": "/ka2coder-react/static/media/MarkdownPdf.4f4f989c1bad832addc4.png",
+    "static/media/undraw_Calculator_re_alsc.png": "/ka2coder-react/static/media/undraw_Calculator_re_alsc.115ffd0a7a23e25025eb.png",
+    "static/media/undraw_Dashboard.png": "/ka2coder-react/static/media/undraw_Dashboard.0d66519a59a553bdf685.png",
+    "static/media/undraw_Forms_re_pkrt.png": "/ka2coder-react/static/media/undraw_Forms_re_pkrt.26c2b7c482bf90246ebf.png",
+    "index.html": "/ka2coder-react/index.html",
+    "main.89c6d5e3.css.map": "/ka2coder-react/static/css/main.89c6d5e3.css.map",
+    "main.9dd64c97.js.map": "/ka2coder-react/static/js/main.9dd64c97.js.map",
+    "453.97196260.chunk.js.map": "/ka2coder-react/static/js/453.97196260.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89c6d5e3.css",
+    "static/js/main.9dd64c97.js"
+  ]
+}
