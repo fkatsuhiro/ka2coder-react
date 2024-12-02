@@ -16,6 +16,7 @@ import Career from './Career';
 import StudyContent from './StudyContent';
 import SkillContent from './SkillContent';
 import LinkObject from './LinkObject';
+import Presentation from './Presentation.js';
 
 
 class TopPage extends Component {
@@ -41,6 +42,10 @@ class TopPage extends Component {
       { subTitle: 'Rakus Tech Lab', subText: '期間: 2024/7/23,25,8/1,8', Content: '4日間、期間3週間のハッカソンに参加しました。5人でチームを作り、それをもとに、チャットアプリという制約の下で開発を行いました。作ったサービスは、大学生の質問箱のようなアプリです。コンセプトとしては、同じ大学の人と匿名で質問をすることができるというものです。投稿、メモ、入室者人数カウント、画面内スクロールなどの機能を付与してあります。' },
 
     ];
+
+    const PresentationInfo = [
+      { Title: 'BEENOS株式会社 BEELT', presentationTitle:'indexとmetaデータを用いた検索処理速度改善', slideUrl: 'https://docs.google.com/presentation/d/e/2PACX-1vS08A1B-Euo6OpOXl5Z05e7MejhvH2aW1EL3EM79yMs91-RU9XgkDQKjbeBoFpeJze7z1wjC3esbRhl/embed?start=false&loop=false&delayms=3000'}
+    ]
 
     const Study = [
       { subTitle: '非常に重たい原子核の核構造に関しての研究', subText: '使用言語 : C言語', calcMethod: '用いた計算手法 : モンテカルロ法', Content: '近年、重量子のような地球上には存在しないほどの質量数をもつ原子核が、バブル型の構造をとるのではないかという仮説とトーラス型の構造をとるのではないかという2つの説が唱えられています。 そこで、原子核のエネルギーの算出方法として有名な手法の1つである、ベーテ・ワイチェッカーの半経験的質量公式を用いて簡易的な原子核モデルを考えて数値的にエネルギーを算出することにしました。' }
@@ -94,6 +99,12 @@ class TopPage extends Component {
           {CareerContent.map((ContentItem) => {
             return (
               <Career subTitle={ContentItem.subTitle} subText={ContentItem.subText} Content={ContentItem.Content} />
+            )
+          })}
+          <p className='midasi'>Presentation</p>
+          {PresentationInfo.map((PresentationItem) => {
+            return (
+              <Presentation Title={PresentationItem.Title} presentationTitle={PresentationItem.PresentationTitle} slideUrl={PresentationItem.slideUrl} />
             )
           })}
           <p className='midasi'>Study</p>
