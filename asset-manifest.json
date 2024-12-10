@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ka2coder-react/static/css/main.89c6d5e3.css",
-    "main.js": "/ka2coder-react/static/js/main.ec39a9cf.js",
+    "main.js": "/ka2coder-react/static/js/main.cb04a9aa.js",
     "static/js/453.97196260.chunk.js": "/ka2coder-react/static/js/453.97196260.chunk.js",
     "static/media/rakus_demo_video.mp4": "/ka2coder-react/static/media/rakus_demo_video.4147d8c9cf9f142c62ed.mp4",
     "static/media/Vue.mp4": "/ka2coder-react/static/media/Vue.363d380ce6304ccf2fa8.mp4",
@@ -25,11 +25,11 @@
     "static/media/undraw_Forms_re_pkrt.png": "/ka2coder-react/static/media/undraw_Forms_re_pkrt.26c2b7c482bf90246ebf.png",
     "index.html": "/ka2coder-react/index.html",
     "main.89c6d5e3.css.map": "/ka2coder-react/static/css/main.89c6d5e3.css.map",
-    "main.ec39a9cf.js.map": "/ka2coder-react/static/js/main.ec39a9cf.js.map",
+    "main.cb04a9aa.js.map": "/ka2coder-react/static/js/main.cb04a9aa.js.map",
     "453.97196260.chunk.js.map": "/ka2coder-react/static/js/453.97196260.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89c6d5e3.css",
-    "static/js/main.ec39a9cf.js"
+    "static/js/main.cb04a9aa.js"
   ]
 }
